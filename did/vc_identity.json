@@ -13,7 +13,7 @@
         "firtName": "John",
         "lastName": "Example",
         "addressLine1": "123 example street",
-        "cCity": "Example City",
+        "city": "Example City",
         "state": "CA",
         "country": "USA",
         "zip": "94500"
