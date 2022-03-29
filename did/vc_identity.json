@@ -10,7 +10,7 @@
     "issuanceDate": "2022-01-01T19:23:24Z",
     "credentialSubject": [{
         "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-        "firtName": "John",
+        "firstName": "John",
         "lastName": "Example",
         "addressLine1": "123 example street",
         "city": "Example City",
