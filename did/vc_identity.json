@@ -1,28 +1,23 @@
 {
-  
-    "@context": [
-      "https://www.w3.org/2018/credentials/v1",
-      "https://www.w3.org/2018/credentials/examples/v1"
-    ],
-    "id": "https://sophtron.com/verify/identity/1234",
-    "type": ["VerifiableCredential", "IdentityCredential"],
-    "issuer": "https://sophtron.com/issuers/kyc",
-    "issuanceDate": "2022-01-01T19:23:24Z",
-    "credentialSubject": [{
-        "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
-        "firtName": "John",
-        "lastName": "Example",
-        "addressLine1": "123 example street",
-        "cCity": "Example City",
-        "state": "CA",
-        "country": "USA",
-        "zip": "94500"
-    }],
-    "proof": {
-      "type": "RsaSignature2018",
-      "created": "2017-06-18T21:19:10Z",
+  "@context": ["https://www.w3.org/2018/credentials/v1", "https://www.w3.org/2018/credentials/examples/v1"],
+  "id": "https://did.sophtron.com/vc/identity/0044c82b-f8a9-4508-921a-e49bff69a705",
+  "type": ["VerifiableCredential", "IdentityCredential"],
+  "issuer": "did:ion:EiDPbz2t9aw5u8GRCRyyY090Gk3vSHmsZFLYgVnBurOMEw",
+  "issuanceDate": "2022-04-15T14:02:40.360294537Z",
+  "credentialSubject": {
+      "address": "123 example street",
+      "email": "John@example.com",
+      "id": "http://api.sophtron.com/api/userinstitution/0044c82b-f8a9-4508-921a-e49bff69a705",
+      "institution": "Sophtron Bank",
+      "institutionImg": "https://sophtron.com/../../Images/logo.png",
+      "name": "John",
+      "updatedDate": "4/15/2022 12:14:50 PM"
+  },
+  "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2022-04-15T14:02:40Z",
+      "jws": "eyJhbGciOiJFUzI1NksiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJraWQiOiJkaWQ6aW9uOkVpRFBiejJ0OWF3NXU4R1JDUnl5WTA5MEdrM3ZTSG1zWkZMWWdWbkJ1ck9NRXcifQ..jkJ-UYjStxjrZ2fywq4wmEPkUgjMMkXPwMTZgl5XfYY3lCRsbLn3Rv_d6tb2gV4fK235lale5mAml25pPe4Uxg",
       "proofPurpose": "assertionMethod",
-      "verificationMethod": "https://sophtron.com/issuers/kyc#key-1",
-      "jws": "eyJhbGciOiJSUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TCYt5XsITJX1CxPCT8yAV-TVkIEq_PbChOMqsLfRoPsnsgw5WEuts01mq-pQy7UJiN5mgRxD-WUcX16dUEMGlv50aqzpqh4Qktb3rk-BuQy72IFLOqV0G_zS245-kronKb78cPN25DGlcTwLtjPAYuNzVBAh4vGHSrQyHUdBBPM"
-    }
+      "verificationMethod": "did:ion:EiDPbz2t9aw5u8GRCRyyY090Gk3vSHmsZFLYgVnBurOMEw"
   }
+}
